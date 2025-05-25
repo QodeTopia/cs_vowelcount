@@ -116,7 +116,6 @@ Je nach verwendeter IDE muss das SDK (oder JDK) konfiguriert werden.
 Zum Ausführen der Tests, sind die Abhängigkeiten zu `junit` und `hamcrest` dem `classpath` hinzuzufügen.
 Das geht bei IntelliJ zum Beispiel unter Modul-Settings.
 
-
 ---
 
 ## Du brauchst Hilfe?
@@ -132,6 +131,7 @@ Alternativ kannst du Emil eine E-Mail schreiben: `emil@open-email.de`
 Im Ordner `loesung/` findest du mehrere Lösungen.  
 Aber: Versuch's erst selbst – Emil hat’s auch nicht auf Anhieb geschafft. 😅
 
+---
 
 ## Drittanbieter-Komponenten
 
