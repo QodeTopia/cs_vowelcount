@@ -36,7 +36,7 @@ Zähle alle Vokale (`a`, `e`, `i`, `o`, `u` – Groß und Klein) in einem belieb
 Eingabe: "Emil liebt Java"  
 Ausgabe: 6
 1. Du kannst zur Überprüfung die Testklasse [VokaleTest](./VokaleTest.java) ausführen.
-1. **ODER**: Du implementierst eine `Main-Methode`, welche die Methode `Vokale.getCount(String)` aufruft und überprüfe das Ergebnis manuell 
+1. **ODER**: Du implementierst eine `main()-Methode` ([Vokale](./Vokale.java)), welche die Methode `Vokale.getCount(String)` aufruft und überprüfe das Ergebnis manuell 
 ---
 
 ## 🧩 Bonus-Ideen (wenn du weiter gehen willst)
@@ -53,7 +53,7 @@ Ausgabe: 6
 ## 💬 Mach mit!
 
 - Forke dieses Repo
-- Löse die Aufgabe in deiner eigenen Datei (z.B. `Main.java`)
+- Löse die Aufgabe in der Datei ([Vokale](./Vokale.java))
 - Poste deine Lösung als Kommentar unter [diesem YouTube-Video](https://youtube.com/@QodeTopia) (Link folgt)
 
 ---
