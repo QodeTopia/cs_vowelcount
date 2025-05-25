@@ -84,15 +84,44 @@ Zusätzlich kann dir das helfen: https://www.baeldung.com/foreach-java
 
 ---
 
-## TODO
+## Ausführen des Programms
 
-Hinweise zum Ausführen und IDE-Setup hinzufügen?
+### Ohne IDE
+
+Stelle sicher, dass Java installiert ist. Du brauchst keine zusätzliche Software oder Projektstruktur.
+
+#### Kompilieren:
+```bash
+javac Vokale.java
+```
+
+#### Ausführen:
+```bash
+java Vokale
+```
+
+#### Kompilieren und Ausführen der Tests
+
+> [!NOTE]
+> Bei Windows bitte `:` durch `;` ersetzen.
+
+```bash
+javac -cp "lib/junit-4.13.1.jar" Vokale.java VokaleTest.java
+java -cp ".:lib/junit-4.13.1.jar:lib/hamcrest-core-1.3.jar" org.junit.runner.JUnitCore VokaleTest
+```
+
+### Mit IDE
+
+Je nach verwendeter IDE muss das SDK (oder JDK) konfiguriert werden.
+Zum Ausführen der Tests, sind die Abhängigkeiten zu `junit` und `hamcrest` dem `classpath` hinzuzufügen.
+Das geht bei IntelliJ zum Beispiel unter Modul-Settings.
+
 
 ---
 
 ## Du brauchst Hilfe?
 
-Du kannst hier (TODO Link) ein Issue anlegen und mir dein Problem schildern, und dir wird dann weitergeholfen.
+Du kannst [hier](https://github.com/QodeTopia/cs_vowelcount/issues) ein Issue anlegen und mir dein Problem schildern.
 
 Alternativ kannst du Emil eine E-Mail schreiben: `emil@open-email.de`
 
