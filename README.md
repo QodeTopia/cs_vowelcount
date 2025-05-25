@@ -2,8 +2,12 @@
 
 ![License: MIT](https://img.shields.io/badge/License-MIT-green.svg)
 
-TODO Hinweis zum video (Link) und zur Videoreihe :)
-TODO Hinweis: Bitte erst alles lesen und dann anfangen :)
+> [!NOTE]
+> Dieses Repository ist Teil einer Videoreihe des Youtube-Kanals [QodeTopia](https://youtube.com/@QodeTopia) und richtet sich an Java-Programmieranfänger.
+
+> [!TIP]
+> Bevor du anfängst, lies bitte bis zum Ende :)
+
 
 ## Challenge
 
@@ -41,6 +45,8 @@ Ausgabe: 6
 - Nur Vokale zählen, die _nicht doppelt_ vorkommen
 - Gib die Anzahl jedes Vokal zusätzlich aus, z.B. `a: 5`
 - Benutze Java-Streams oder wenn du sie bereits verwendet hast, versuche es ohne. 
+- Wenn du eine IDE benutzt, versuche es bewusst ohne und benutze `javac` und einen einfachen Texteditor
+- Wenn du keine IDE benutzt, probiere es mit IDE, z.B. [IntelliJ Community Edition](https://www.jetbrains.com/de-de/idea/download/)
 
 ---
 
@@ -49,6 +55,18 @@ Ausgabe: 6
 - Forke dieses Repo
 - Löse die Aufgabe in deiner eigenen Datei (z.B. `Main.java`)
 - Poste deine Lösung als Kommentar unter [diesem YouTube-Video](https://youtube.com/@QodeTopia) (Link folgt)
+
+---
+
+## Was du brauchst
+
+- Du benötigst ein Java Development Kit (JDK). Empfohlen >= 17, aber mindestens 8.
+  Das aktuelle JDK kannst du [hier](https://www.oracle.com/de/java/technologies/downloads/) herunterladen. 
+- Idealerweise hast du eine IDE, es geht aber auch ohne:
+  - [Visual Studio Code](https://code.visualstudio.com/) und [Java in Visual Studio Code](https://code.visualstudio.com/docs/languages/java)
+  - [IntelliJ Community Edition](https://www.jetbrains.com/de-de/idea/download/) (empfohlen)
+  - [Eclipse](https://www.eclipse.org/downloads/)
+  - ...
 
 ---
 
@@ -66,7 +84,13 @@ Zusätzlich kann dir das helfen: https://www.baeldung.com/foreach-java
 
 ---
 
-### Du brauchst Hilfe?
+## TODO
+
+Hinweise zum Ausführen und IDE-Setup hinzufügen?
+
+---
+
+## Du brauchst Hilfe?
 
 Du kannst hier (TODO Link) ein Issue anlegen und mir dein Problem schildern, und dir wird dann weitergeholfen.
 
