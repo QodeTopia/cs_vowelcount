@@ -4,13 +4,7 @@ public class Vokale {
     // Vokale sind a, e, i, o, u.
     // Der Eingabetext (String) wird aus Groß/Kleinbuchstaben und/oder Leerzeichen bestehen.
     public static int getCount(String str) {
-        var count = 0;
-        for (char c : str.toLowerCase().toCharArray()) {
-            if (c == 'a' || c =='i' || c == 'e' || c == 'o' || c == 'u') {
-                count++;
-            }
-        }
-        return count;
+       return -1; // TODO implementiere mich :)
     }
 
     // Optional: Du kannst die main-Methode nutzen, um deinen Code zu überprüfen oder verwende VokaleTest
